@@ -1,11 +1,11 @@
-interface IMenuItem {
+export interface IMenuItem {
     id: number;
     name: string;
     price: number 
     
 }
 
-interface IOrderItem : IMenuItem {
+ export interface IOrderItem extends IMenuItem {
 
 quantity: number;
 
